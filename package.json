@@ -1,0 +1,28 @@
+{
+  "name": "freefire-telegram-bot",
+  "version": "1.0.0",
+  "description": "Bot Telegram pour Free Fire avec vérification de compte et statistiques",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "freefire",
+    "gaming"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "telegraf": "^4.16.0",
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
+    "node-cache": "^5.1.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
